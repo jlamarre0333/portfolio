@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #444444;
+    color: whitesmoke;
+    font-family: 'Roboto';
+}
+
+header {
+    height: 30vh;
+    width: 100vw;
+    border: 2px solid red;
+    background-image: url('./assets/header-background.jpg');
+    background-position-y: -1000px;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header nav {
+    display: flex;
+    border: 2px solid limegreen;
+    height: 30%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444444;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    border: 2px solid purple;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+header nav ul li {
+    border-bottom: 4px solid turquoise;
+    padding: 5px 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: turquoise;
+    font-size: 1.5rem;
+    
+}
+
+header nav h1 {
+    height: 80%;
+    width: 20%;
+    background-color: turquoise;
+    color: #444444;
+    font-size: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+}
+
+section {
+    height: 100vh;
+}
+
+.subtitle {
+    position: absolute;
+    bottom: 5%;
+    right: 5%; 
+    border: 2px solid yellow;
+    background-color: turquoise;
+    color: #444444;
+    font-size: 1.8rem;
+    
+
+}
+
