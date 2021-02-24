@@ -130,6 +130,31 @@ header nav h1 {
     background-position-y: 600px;
     background-size: cover;
 }
+
+.featured-project div {
+    background-color: turquoise;
+    width: 15%;
+    height: 10%;
+    text-align: center;
+    margin-top: 32%;
+    margin-right: 5%;
+    
+}
+
+.featured-project a {
+    text-decoration: none;
+}
+
+.featured-project div h3 {
+    font-size: 1.5rem;
+ }
+ 
+ .featured-project div p {
+     font-size: 1.2rem;
+ } 
+
+
+
 .projects {
     border: 2px solid lime;
     width: 80%;
@@ -137,8 +162,15 @@ header nav h1 {
     padding: 0 2%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-start;
+    
+}
+
+.project-item div {
+    border: 2px solid red;
+    margin-top: 12%;
+    margin-right: 5%;
 }
 
 #work {
@@ -147,21 +179,63 @@ header nav h1 {
 
 .project-item {
     border: 2px solid red;
-    height: 175px;
-    width: 700px;
+    height: 180px;
+    width: 745px;
+    
+    /* position: relative; */
+    
     
 }
 
+.project-item-1 {
+    background-image: url(./assets/led-pic.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+.project-item-2 {
+    background-image: url('./assets/calculator-image.jpg');
+    background-size: cover;
+}
+
+.project-item-3 {
+    background-image: url(./assets/puzzle-pic.jpg);
+    background-size: cover;
+}
+
+.project-item-4 {
+    background-image: url(./assets/surf-pic.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
 .project-item a {
-    background-image:url('./assets/run-buddy-pic.jpg');
+    /* background-image:url('./assets/run-buddy-pic.jpg'); */
     background-position-y: 600px;
     background-size: cover;
     height: 100%;
     width: 100%;
     display: block;
+    text-decoration: none;
 }
 
+.project-item div {
+    background-color: turquoise;
+    width: 30%;
+    height: 35%;
+    /* position: absolute; */
+    text-align: center;
+    
+    
+}
 
+.project-item div h3 {
+   font-size: 1.5rem;
+}
+
+.project-item div p {
+    font-size: 1.2rem;
+} 
 
 /* Footer Styling */
 
