@@ -14,8 +14,10 @@ body {
     font-family: 'Roboto';
 }
 
+
+/* Header styling */
 header {
-    height: 30vh;
+    height: 40vh;
     width: 100vw;
     border: 2px solid red;
     background-image: url('./assets/header-background.jpg');
@@ -79,6 +81,8 @@ header nav h1 {
     font-size: 1.8rem;
 }
 
+/* About me Section */
+
 .section {
     
     height: 30vh;
@@ -100,6 +104,8 @@ header nav h1 {
     font-size: 1.5rem;
     padding-left: 2%;
 }
+
+/* Work Section */
 
 .featured-project {
     background-image:url('./assets/run-buddy-pic.jpg');
@@ -131,6 +137,12 @@ header nav h1 {
     
 }
 
+.feature-projects li a {
+    height: 100%;
+    width: 100%;
+}
+
+/* Footer Styling */
 
 footer {
     height: 15vh;
