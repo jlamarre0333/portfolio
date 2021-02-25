@@ -270,3 +270,60 @@ footer ul li a {
     font-size: 1.5rem;
 }
 
+
+.featured-project:hover {
+    opacity: 75%;
+    box-shadow: .5px .5px;
+}
+
+.project-item:hover {
+    opacity: 75%;
+    box-shadow: .5px .5px;
+}
+
+header nav ul li a:hover {
+    /* border: 20px 0 solid limegreen;
+    font-display: bold;
+    height: 100%;
+    padding: 5px 10px;
+    border-top: 50px solid limegreen; */
+}
+
+.about-me:hover {
+    border: 20px 0 solid limegreen;
+    font-display: bold;
+    height: 100%;
+    padding: 5px 10px;
+    font-size:30px;
+    font-weight: bold;
+    
+}
+
+.work:hover {
+    border: 20px 0 solid limegreen;
+    font-display: bold;
+    height: 100%;
+    padding: 5px 10px;
+    font-size:30px;
+    font-weight: bold;
+
+}
+
+.contact-me:hover {
+    border: 20px 0 solid limegreen;
+    font-display: bold;
+    height: 100%;
+    padding: 5px 10px;
+    font-size:30px;
+    font-weight: bold;
+
+}
+
+.resume:hover {
+    border: 20px 0 solid limegreen;
+    font-display: bold;
+    height: 100%;
+    padding: 5px 10px;
+    font-size:30px;
+    font-weight: bold;
+}
