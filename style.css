@@ -103,7 +103,7 @@ header nav h1 {
     height: 70%;
     text-align: right;
     width: 20%;
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     
 }
 
@@ -155,7 +155,7 @@ header nav h1 {
      font-size: 1.2rem;
  } 
 
-/* Prjects */
+/* Projects */
 
 .projects {
     border: 2px solid lime;
@@ -177,6 +177,7 @@ header nav h1 {
 
 #work {
     height: 100vh;
+    
 }
 
 .project-item {
@@ -184,7 +185,7 @@ header nav h1 {
     height: 180px;
     width: 745px;
     
-    /* position: relative; */
+    
     
     
 }
@@ -227,6 +228,7 @@ header nav h1 {
     height: 35%;
     /* position: absolute; */
     text-align: center;
+    
     
     
 }
@@ -335,6 +337,20 @@ header nav ul li a:hover {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
 
+.projects, .project-item {
+    display: flex;
+    align-items: center;
+    height: ;
 }
+.project-item {
+    height: 180px;
+    width: 745px;
+}
+.featured-project {
+    width: 1600px;
+    height: 600px;
+}
+} */
+
