@@ -114,7 +114,8 @@ header nav h1 {
     border: 2px solid red;
 }
 
-/* Work Section */
+/* Work/Hero Section */
+/* Styling for featured-project */
 
 .featured-project {
     
@@ -154,7 +155,7 @@ header nav h1 {
      font-size: 1.2rem;
  } 
 
-
+/* Prjects */
 
 .projects {
     border: 2px solid lime;
@@ -272,6 +273,9 @@ footer ul li a {
 }
 
 
+
+/* Pseudo classes and hover effects */
+
 .featured-project:hover {
     opacity: 75%;
     box-shadow: .5px .5px;
@@ -281,6 +285,8 @@ footer ul li a {
     opacity: 75%;
     box-shadow: .5px .5px;
 }
+
+
 
 header nav ul li a:hover {
     /* border: 20px 0 solid limegreen;
@@ -327,4 +333,8 @@ header nav ul li a:hover {
     padding: 5px 10px;
     font-size:30px;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+
 }
