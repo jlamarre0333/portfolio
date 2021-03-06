@@ -1,356 +1,335 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
-
+/*Body and page style*/
 * {
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 body {
+    width: 100vw;
     height: 100vh;
-    width: 100vw;
-    background-color: #246E74;
-    background-color: opacity ;
-    color: whitesmoke;
-    font-family: 'Roboto';
-    overflow-y: scroll;
-}
-
-
-/* Header styling */
-header {
-    height: 40vh;
-    width: 100vw;
-    border: 2px solid red;
-    background-image: url('./assets/header-background.jpg');
-    background-position-y: -1000px;
-    background-attachment: fixed;
     position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: #4f8ee0;
 }
 
-header nav {
-    display: flex;
-    border: 2px solid limegreen;
-    height: 30%;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #246E74;
-}
-
-header nav ul {
-    display: flex;
-    list-style: none;
-    border: 2px solid purple;
-    width: 40%;
-    justify-content: space-evenly;
-    align-items: center;
-
-}
-
-header nav ul li {
-    border-bottom: 4px solid #44bcd8;
-    padding: 5px 10px;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: #44bcd8;
-    font-size: 1.5rem;
-    
-}
-
-header nav h1 {
-    height: 80%;
-    width: 20%;
-    background-color: #44bcd8;
-    color: #444444;
-    font-size: 3rem;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 15px;
-}
-
-
-
-.subtitle {
-    position: absolute;
-    bottom: 5%;
-    right: 5%; 
-    border: 2px solid yellow;
-    background-color: #44bcd8;
-    color: #444444;
-    font-size: 1.8rem;
-}
-
-/* About me Section */
-
-.section {
-    
-    height: 30vh;
-    border: 4px solid black;
-    
-    display: flex;
-    width: 100vw;
-    justify-content: flex-start;
-
-}
-
-.section-header {
-    padding-right: 1%;
-    border-right: 4px solid black;
-    font-size: 3rem;
-    height: 70%;
-    text-align: right;
-    width: 20%;
-    border: 2px solid blue;
-    
-}
-
-#about-me p {
-    font-size: 1.5rem;
-    padding-left: 2%;
-    width: 80%;
-    border: 2px solid red;
-}
-
-/* Work/Hero Section */
-/* Styling for featured-project */
-
-.featured-project {
-    
-    width: 1600px;
-    height: 600px;
-    
-}
-
-.featured-project a {
-    height: 100%;
+/* Header */
+header {
+    height: 20%;
     width: 100%;
-    display: block;
-    background-image:url('./assets/run-buddy-pic.jpg');
-    background-position-y: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: #5532d6;
+    background-image: url(./assets/moutain-pic.jpg);
+    background-position-x: ;
+    background-position-y: 55%;
     background-size: cover;
 }
 
-.featured-project div {
-    background-color: #76b5c5;
+header h1, header h2, .featured-project div  {
+    color: whitesmoke;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 5rem;
+
+}
+
+nav h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444444;
+    height: max-content;
+    padding: 10px;
+    color: white;
+    padding-left: 100px;
+}
+
+nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    background-color: #444444;
+    padding: 10px;
+}
+
+.subtitle {
+    position: absolute;
+    bottom: 2%;
+    right: 20%;
+}
+
+/* Work/hero section */
+section {
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+}
+
+section h1 {
     width: 15%;
-    height: 10%;
-    text-align: center;
-    margin-top: 32%;
-    margin-right: 5%;
+    text-align: right;
+    height: max-content;
+    padding-right: 20px;
+}
+
+section p {
+    width: 70%;
+    padding: 20px 0;
+    padding-left: 10px;
+}
+
+section ul {
+    padding-left: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    border-left: 2px solid black;
+}
+
+#about-me p {
+    border-left: 2px solid black;
+}
+
+/* Individual Projects */
+.featured-project {
+    width: 100%;
+    height: 20rem;
+    background-image: url(./assets/run-buddy-pic.jpg);
+    background-position-x: 55%;
+    background-position-y: 75%;
+    position: relative;
     
 }
 
 .featured-project a {
+    width: 100%;
+    height: 100%;
     text-decoration: none;
-}
-
-.featured-project div h3 {
-    font-size: 1.5rem;
- }
- 
- .featured-project div p {
-     font-size: 1.2rem;
- } 
-
-/* Projects */
-
-.projects {
-    border: 2px solid lime;
-    width: 80%;
-    height: 90%;
-    padding: 0 2%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    
-}
-
-.project-item div {
-    border: 2px solid red;
-    margin-top: 12%;
-    margin-right: 5%;
-}
-
-#work {
-    height: 100vh;
-    
+    font-style: none;
+    position: absolute;
 }
 
 .project-item {
-    border: 2px solid red;
-    height: 180px;
-    width: 745px;
-    
-    
-    
-    
+    width: 49%;
+    height: 5rem;
+    margin-top: 10px;
+}
+
+.project-item a {
+   text-decoration: none;
+}
+
+.project-item a div h3, .project-item a div p, .featured-project a {
+    color: whitesmoke;
 }
 
 .project-item-1 {
     background-image: url(./assets/led-pic.jpg);
-    background-size: cover;
+    background-position-x: 65%;
     background-position-y: center;
+    background-size: cover;
 }
 
 .project-item-2 {
-    background-image: url('./assets/calculator-image.jpg');
+    background-image: url(./assets/calculator-image.jpg);
+    background-position-x: 65%;
+    background-position-y: center;
     background-size: cover;
 }
 
 .project-item-3 {
     background-image: url(./assets/puzzle-pic.jpg);
+    background-position-x: 65%;
+    background-position-y: center;
     background-size: cover;
 }
 
 .project-item-4 {
     background-image: url(./assets/surf-pic.jpg);
-    background-size: cover;
+    background-position-x: 65%;
     background-position-y: center;
-}
-
-.project-item a {
-    /* background-image:url('./assets/run-buddy-pic.jpg'); */
-    background-position-y: 600px;
     background-size: cover;
-    height: 100%;
-    width: 100%;
-    display: block;
-    text-decoration: none;
 }
 
-.project-item div {
-    background-color: #76b5c5;
-    width: 30%;
-    height: 35%;
-    /* position: absolute; */
-    text-align: center;
-    
-    
-    
-}
 
-.project-item div h3 {
-   font-size: 1.5rem;
-}
-
-.project-item div p {
-    font-size: 1.2rem;
-} 
-
-/* Footer Styling */
-
+/* Footer */
 footer {
-    height: 15vh;
-    width: 100vw;
-    border: 4px solid black;
-    padding: 3% 10%;
+    height: 10%;
+    width: 100%;
     display: flex;
     align-items: center;
+    bottom: 0;
+    background-color: #5532d6}
+
+footer h1 {
+    font-size: 1.25rem;
+    color: white;
+    width: 15%;
 }
 
 footer ul {
     display: flex;
     list-style: none;
-    width: 60%;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-    height: 60%;
-    
+    padding: 0;
+    width: 85%;
+    justify-content: center;
 }
 
 footer ul li {
-    border-bottom: 4px solid turquoise;
-    padding: 5px 10px;
+    margin: 0px 5px;
 }
 
 footer ul li a {
+    color: white;
     text-decoration: none;
-    color: turquoise;
-    font-size: 1.5rem;
 }
 
+/* Hover pscuedo classes */
+.nav-bar li a:hover {
+    font-display: bold;
+    height: 100%;
+    padding: 5px 10px;
+    font-size:25px;
+    font-weight: bold;
+} 
 
-
-/* Pseudo classes and hover effects */
 
 .featured-project:hover {
-    opacity: 75%;
-    box-shadow: .5px .5px;
-}
-
-.project-item:hover {
-    opacity: 75%;
-    box-shadow: .5px .5px;
-}
-
-
-
-header nav ul li a:hover {
-    /* border: 20px 0 solid limegreen;
     font-display: bold;
-    height: 100%;
-    padding: 5px 10px;
-    border-top: 50px solid limegreen; */
-}
-
-.about-me:hover {
-    border: 20px 0 solid limegreen;
-    font-display: bold;
-    height: 100%;
-    padding: 5px 10px;
-    font-size:30px;
     font-weight: bold;
-    
+    opacity: 80%;
+}
+.project-item-1:hover {
+    font-display: bold;
+    font-weight: bold;
+    opacity: 80%;
 }
 
-.work:hover {
-    border: 20px 0 solid limegreen;
+.project-item-2:hover {
+    font-display: bold;
+    font-weight: bold;
+    opacity: 80%;
+}
+
+.project-item-3:hover {
+    font-display: bold;
+    font-weight: bold;
+    opacity: 80%;
+}
+
+.project-item-4:hover {
+    font-display: bold;
+    font-weight: bold;
+    opacity: 80%;
+}
+
+#contact-me ul li a:hover {
     font-display: bold;
     height: 100%;
     padding: 5px 10px;
-    font-size:30px;
+    font-size:20px;
     font-weight: bold;
 
 }
 
-.contact-me:hover {
-    border: 20px 0 solid limegreen;
-    font-display: bold;
-    height: 100%;
-    padding: 5px 10px;
-    font-size:30px;
-    font-weight: bold;
+/* Media Queries */
+@media only screen and (max-width: 800px) {
+
+    header nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul {
+        margin: 0;
+    }
+
+    header nav li a {
+        margin: 0;
+        font-size: .75rem;
+    }
+
+    header h1 {
+        padding: 10px;
+    }
+
+    .subtitle {
+        position: relative;
+        margin: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .subtitle h2 {
+        text-align: center;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section h1, section p {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    section p, section ul {
+        border-left: none;
+        padding: 0;
+    }
+
+    .project-item {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer h1 {
+        width: 100%;
+        height: 50%;
+        font-size: 1rem;
+        text-align: center;
+    }
+    footer ul {
+        height: 50%;
+    }
+    footer a {
+        width: 100%;
+        font-size: .6rem;
+        text-align: center;
+        width: max-content;
+    }
 
 }
 
-.resume:hover {
-    border: 20px 0 solid limegreen;
-    font-display: bold;
-    height: 100%;
-    padding: 5px 10px;
-    font-size:30px;
-    font-weight: bold;
-}
 
-/* @media only screen and (max-width: 800px) {
 
-.projects, .project-item {
-    display: flex;
-    align-items: center;
-    height: ;
-}
-.project-item {
-    height: 180px;
-    width: 745px;
-}
-.featured-project {
-    width: 1600px;
-    height: 600px;
-}
-} */
+
 
