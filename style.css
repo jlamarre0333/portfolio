@@ -11,7 +11,7 @@ body {
     position: relative;
     overflow-x: hidden;
     overflow-y: scroll;
-    background-color: #4f8ee0;
+    background-color: #314e52;
 }
 
 /* Header */
@@ -27,9 +27,11 @@ header {
     background-size: cover;
 }
 
-header h1, header h2, .featured-project div  {
+header h1, header h2, .featured-project div,  {
     color: whitesmoke;
 }
+
+
 
 nav {
     display: flex;
@@ -111,6 +113,11 @@ section ul {
 
 #about-me p {
     border-left: 2px solid black;
+    color: #e7e6e1;
+}
+
+.section-header {
+    color: #f7f6e7;
 }
 
 /* Individual Projects */
@@ -118,6 +125,7 @@ section ul {
     width: 100%;
     height: 20rem;
     background-image: url(./assets/run-buddy-pic.jpg);
+    background-position: cover ;
     background-position-x: 55%;
     background-position-y: 75%;
     position: relative;
@@ -130,6 +138,7 @@ section ul {
     text-decoration: none;
     font-style: none;
     position: absolute;
+      
 }
 
 .project-item {
@@ -143,7 +152,7 @@ section ul {
 }
 
 .project-item a div h3, .project-item a div p, .featured-project a {
-    color: whitesmoke;
+    color: #e7e6e1;
 }
 
 .project-item-1 {
@@ -182,12 +191,16 @@ footer {
     display: flex;
     align-items: center;
     bottom: 0;
-    background-color: #5532d6}
+    background-color: #314e52}
 
 footer h1 {
     font-size: 1.25rem;
-    color: white;
+    color: #e7e6e1;
     width: 15%;
+    text-align: right;
+    padding: .74%;
+    border-right: 2px solid black;
+    
 }
 
 footer ul {
@@ -203,7 +216,7 @@ footer ul li {
 }
 
 footer ul li a {
-    color: white;
+    color: #e7e6e1;
     text-decoration: none;
 }
 
@@ -214,6 +227,8 @@ footer ul li a {
     padding: 5px 10px;
     font-size:25px;
     font-weight: bold;
+    
+
 } 
 
 
@@ -221,11 +236,13 @@ footer ul li a {
     font-display: bold;
     font-weight: bold;
     opacity: 80%;
+    
 }
 .project-item-1:hover {
     font-display: bold;
     font-weight: bold;
     opacity: 80%;
+    
 }
 
 .project-item-2:hover {
@@ -252,6 +269,27 @@ footer ul li a {
     padding: 5px 10px;
     font-size:20px;
     font-weight: bold;
+    color: #f2a154;
+
+
+}
+
+.featured-project div h3:hover {
+    color: #f2a154;
+
+}
+
+.featured-project div p:hover {
+    color: #f2a154;
+
+}
+
+.project-item div p:hover  {
+    color: #f2a154;
+}
+
+.project-item div h3:hover {
+    color: #f2a154;
 
 }
 
